@@ -76,3 +76,15 @@ if __name__ == "__main__":
     ironman.print_name()
     ironman.print_attributes()
     ironman.fly()
+
+
+# Spiderman
+    spiderman = Superhero("Spiderman", ["web-shooting", "spider-sense"], "Queens", "Ned", 17)
+    spiderman.print_name()
+    spiderman.super_strength()
+
+
+# Doctor Strange
+    dr_strange = Superhero("Doctor Strange", ["magic"], "New York", "Wong", 42)
+    dr_strange.print_name()
+    dr_strange.teleportation()
