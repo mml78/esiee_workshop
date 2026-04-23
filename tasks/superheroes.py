@@ -9,6 +9,7 @@ class Superhero:
         self.friends = friends
         self.age = age
         self.energy = 100
+        self.alignment = alignment
 
     def print_name(self):
         print(self.name)
@@ -20,6 +21,7 @@ class Superhero:
         print(self.origin)
         print(self.friends)
         print(self.age)
+        print(f"Alignment: {self.alignment}")
 
     def add_power(self, power):
         if power not in self.powers:
