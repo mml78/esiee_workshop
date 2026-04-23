@@ -87,4 +87,4 @@ if __name__ == "__main__":
 # Doctor Strange
     dr_strange = Superhero("Doctor Strange", ["magic"], "New York", "Wong", 42)
     dr_strange.print_name()
-    dr_strange.teleportation()
+    dr_strange.teleportation() 
