@@ -54,6 +54,21 @@ class Superhero:
             self.energy -= 20
             print(f"{self.name} shoots lasers from eyes")
 
+    def mod_weapons(self):
+        if self.energy >= 20:
+            self.add_power("Transform the weapon")
+            self.energy -=20
+            print(f"{self.name}: Transformation of the weapon complete!")
+        else:
+            print(f"{self.name}: Low energy! Cannot transform the weapon.")
+
+    def shield(self):
+        if self.energy >=10:
+            self.energy -= 10
+            print(f"{self.name} activates the shield!")
+        else :
+            print("Low energy ! Cannot activate the shield")
+
 
 # Example usage
 if __name__ == "__main__":
