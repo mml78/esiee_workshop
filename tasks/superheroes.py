@@ -10,6 +10,7 @@ class Superhero:
         self.age = age
         self.energy = 100
         self.alignment = alignment
+        
 
     def print_name(self):
         print(self.name)
